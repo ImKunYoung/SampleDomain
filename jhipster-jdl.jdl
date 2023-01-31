@@ -57,6 +57,9 @@ entity JobHistory {
 	language Language
 }
 
+use mapstruct, serviceImpl, dto, elasticsearch for *
+
+
 enum Language {
     FRENCH, ENGLISH, SPANISH
 }
